@@ -25,6 +25,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: "mktgops.docker.artifactory.global.bamgrid.net:docker"
+          context: "https://hub.docker.com/repository:docker"
           push: true
           tags: mktg-ops/sbt-node:latest
